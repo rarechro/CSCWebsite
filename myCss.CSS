@@ -1,0 +1,178 @@
+/*screaming snake case = MY_VARIABLE*/
+
+#body{
+
+background-color: rgb(196, 196, 196);
+
+
+
+
+
+
+
+
+
+
+
+}
+
+#me{
+     width: 30%;
+     height: 30%;
+      border-radius: 50%;
+      align-self: center;
+    
+    }
+
+
+ul {
+      
+      list-style-type: none;
+      margin: 5px;
+      padding: 0;
+      overflow: hidden;
+      background-color: gray;
+    }
+    
+  /*  setting the position of the menu to the left side of the page*/
+  
+  
+    li {
+      float: left;
+    }
+  
+    /* changes the nav menu from a basic list to blocked button to navigate the website easier*/
+    
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      background-color:cornflowerblue;
+    }
+
+
+
+
+.data{
+      font-size: 40px;
+      text-decoration:solid;
+}
+
+
+.table{
+      align-self: center;
+      align-content: center;
+
+      align-items: center;
+}
+
+
+table, th, td {
+      border: 1px solid black;
+      text-align: center;
+      background-color:darkgray;
+      color:maroon;
+      font-weight: bold;
+    }
+
+#dataTable{
+      margin-left: auto;
+      margin-right: auto;
+
+}
+
+#logo{
+      
+      align-self: 50%;
+
+
+}
+
+#launchPage{
+
+
+
+      background-color: beige;
+
+
+}
+
+
+#loginPage{
+
+      background-color: beige;
+
+
+
+
+
+
+}
+#boardspage{
+
+      background-color: beige;
+
+
+}
+
+
+#loginForm{
+
+      
+      text-align: center;
+      
+      
+}
+
+
+#newMessage{
+
+      color: purple;
+      font-size: 34px;
+      text-align-last: center;
+
+}
+
+
+
+
+#blink{
+
+    
+      font-size: 30px;
+      font-weight: bold;
+      font-family: sans-serif;
+      color: #1c87c9;
+      transition: 0.4s;
+      text-align: center;
+    
+
+
+
+
+
+}
+
+#CountDis{
+
+
+      font-size: 50px;
+      color: red;
+
+
+
+}
+
+.startBt{
+align-self: center;
+
+
+}

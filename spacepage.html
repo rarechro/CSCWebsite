@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+
+
+
+<head>
+    <link rel="stylesheet" href="myCss.CSS">
+    <title>
+        UAT Space
+    </title>
+    <script src="code.js"></script>
+    <script src="dataLoader.js"></script>
+    <script src="datapagewriter.js"></script>
+</head>
+<body id="boardspage">
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="spacepage.html">Space</a></li>
+        <li><a href="boards.html">Boards</a></li>
+        <li><a href="login.html">Login</a></li>
+        
+        
+      </ul>
+
+      <center><img id="me" src="UATspaceLogo-1.jpg"></center>
+
+
+<h1 id="blink">
+        UAT Space Page
+
+    </h1>
+
+<script>var theTime = new Date();
+var time_interval = 5000;
+var running = true;
+var index = 0;
+var timer;
+var data = getData();
+</script>
+
+
+    <table  width="70%" id="dataTable">
+        <tr id="data">
+          
+          
+        </tr>
+        <tr id="timeelapsed">
+          
+          
+        </tr>
+        <tr id="latitude">
+          
+          
+        </tr>
+        <tr id="longitude">
+            
+          </tr>
+          <tr id="gpsalt">
+            
+          </tr>
+          <tr id="BMPsAlt">
+            
+            
+          </tr>
+          <tr id="BMPsPres">
+            
+            
+          </tr>
+          <tr id="BMPsTemp">
+            
+            
+          </tr>
+          <tr id="DigsTemp">
+            
+            
+          </tr>
+          <tr id="CSSsec02">
+            
+            
+          </tr>
+          <tr id="CSSsTVOC">
+            
+            
+          </tr>
+          <tr id="UV">
+            
+            
+          </tr>
+          <tr id="AccelX">
+            
+            
+          </tr>
+          <tr id="AccelY">
+            
+          </tr>
+          <tr id="AccelZ">
+            
+            
+          </tr>
+          <tr id="MAGX">
+            
+          </tr>
+          <tr id="MAGY">
+            
+            
+          </tr>
+          <tr id="MAGZ">
+            
+            
+          </tr>
+          <tr id="GYROX">
+            
+          </tr>
+          <tr id="GYROY">
+            
+          </tr>
+          <tr id="GYROZ">
+            
+            
+          </tr>
+
+          
+      </table>
+
+<br>
+<center>
+<p id="clockTime"></p>
+</center>
+    
+<!-- 
+    <p>
+        This is a paragraph test.
+
+
+    </p>
+    
+
+    <script>
+        //  alert(alertText + welcomeText);
+        document.write(alertText + docWriteText + ' ' + welcomeText);
+
+    </script>
+    
+    <br>
+    <br>
+    <br>
+    <h2>CountDown Timer</h2>
+
+    <div id="CountDis"> display text here after start button pressed</div>
+
+    <p id="newMessage">textmessage here</p> 
+
+    <button onclick="playsta();">Play Sound</button> 
+      <audio id="sound" src="us-lab-background.mp3"></audio>
+-->
+    <br>
+    <br>
+
+    <center>
+    <button id="startBt" element onclick="CountDownTimer();">
+
+        Start
+
+    </button>
+
+    <button id="stopBt" element onclick="startStop();">
+
+        Stop
+
+    </button>
